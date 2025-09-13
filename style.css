@@ -18,6 +18,13 @@ body{
    opacity : 0.1;
    z-index : -1;
 }
+.image-wavy{
+   position : absolute;
+   top : 10%;
+   right : 0;
+   opacity : 0.1;
+   z-index : -1;
+}
 .layer-blur{
     height : 0;
     width: 30rem;
@@ -36,6 +43,7 @@ body{
     z-index: 999;
 }
 header{
+    /* position : fixed; */
     display : flex;
     justify-content : space-between;
     align-items : center;
